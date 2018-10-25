@@ -24,6 +24,6 @@ const server = app.listen(3000, 'localhost', function() {
 	const host = server.address().address;
     const port = server.address().port;
     
-    console.log('Aplikacja nasłuchuje na http://localhost:3000/main' + host + ':' + port);
+    console.log('Aplikacja nasłuchuje na http://' + host + ':' + port);
 
 });
